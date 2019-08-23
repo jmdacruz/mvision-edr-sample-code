@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+thehive4py = "==1.6.0"
+requests = "==2.22.0"
+mvision-edr-activity-feed = {git = "https://github.com/mcafee/mvision-edr-activity-feed"}
+
+[requires]
+python_version = "3.7"
